@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "id": "1111",
+      "id": "0001",
       "start_date": "5-Feb-21",
       "end_date": "...",
       "system": "AAA",
@@ -13,7 +13,7 @@
       "log": "/logs/log1234.txt"
     },
     {
-      "id": "2222",
+      "id": "0002",
       "start_date": "5-Feb-21",
       "end_date": "6-Feb-21",
       "system": "BBB",
@@ -25,7 +25,7 @@
       "log": "/logs/log1234.txt"
     },
       {
-      "id": "3333",
+      "id": "0003",
       "start_date": "5-Feb-21",
       "end_date": "6-Feb-21",
       "system": "BBB",
@@ -35,38 +35,138 @@
       "test": "test_namespace_management",
       "state": "FAIL",
       "log": "/logs/log5678.txt"
-    }
-  ],
-  "events": [
-    {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "organizer": "Kat Laydee"
     },
     {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "id": "0004",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
     },
     {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "organizer": "Carey Wales"
+      "id": "0005",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0006",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0007",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0008",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0009",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0010",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0011",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0012",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0013",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0014",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
     }
   ]
 }
