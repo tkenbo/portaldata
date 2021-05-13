@@ -35,6 +35,6 @@
         "test": "test_namespace_management",
         "state": "FAIL",
         "log": "/logs/log5678.txt",
-      },
+      }
     ]
 }
