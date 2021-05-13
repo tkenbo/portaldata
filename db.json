@@ -10,7 +10,7 @@
       "plan": "plan1",
       "test": "test_smart_data",
       "state": "RUNNING",
-      "log": "/logs/log1234.txt",
+      "log": "/logs/log1234.txt"
     },
     {
       "id": "2222",
@@ -22,7 +22,7 @@
       "plan": "plan2",
       "test": "test_secure_erase",
       "state": "PASS",
-      "log": "/logs/log1234.txt",
+      "log": "/logs/log1234.txt"
     },
       {
       "id": "3333",
@@ -34,7 +34,7 @@
       "plan": "plan2",
       "test": "test_namespace_management",
       "state": "FAIL",
-      "log": "/logs/log5678.txt",
+      "log": "/logs/log5678.txt"
     }
   ],
   "events": [
