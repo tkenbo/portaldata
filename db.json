@@ -4,7 +4,9 @@
       "id": "0001",
       "start_date": "2021-02-05T14:12:36.000Z",
       "end_date": "",
-      "system": "AAA",
+      "system": {
+        "name": "AAA",
+      },
       "plan": "plan1",
       "test": "test_smart_data",
       "state": "RUNNING",
