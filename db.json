@@ -1,110 +1,112 @@
-"test_instances": [
-  {
-    "id": "0001",
-    "start_date": "2021-02-05T14:12:36.000Z",
-    "end_date": "",
-    "system": {
-      "name": "AAA",
-    },
-    "test_job_rel": {
-      "test_plan": {
-        "name": "plan1",
+{
+  "test_instances": [
+    {
+      "id": "0001",
+      "start_date": "2021-02-05T14:12:36.000Z",
+      "end_date": "",
+      "system": {
+        "name": "AAA",
       },
-    },
-    "test_rel": {
-      "name": "test_smart_data",
-    },
-    "state": "INPROGRESS",
-    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
-  },
-  {
-    "id": "0002",
-    "start_date": "2021-02-05T08:35:10.000Z",
-    "end_date": "2021-02-06T02:01:53.000Z",
-    "system": {
-      "name": "BBB",
-    },
-    "test_job_rel": {
-      "test_plan": {
-        "name": "plan2",
+      "test_job_rel": {
+        "test_plan": {
+          "name": "plan1",
+        },
       },
-    },
-    "test_rel": {
-      "name": "test_secure_erase",
-    },
-    "state": "PASS",
-    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
-  },
-  {
-    "id": "0003",
-    "start_date": "2021-02-06T03:40:15.000Z",
-    "end_date": "2021-02-06T07:08:59.000Z",
-    "system": {
-      "name": "CCC",
-    },
-    "test_job_rel": {
-      "test_plan": {
-        "name": "plan3",
+      "test_rel": {
+        "name": "test_smart_data",
       },
+      "state": "INPROGRESS",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
     },
-    "test_rel": {
-      "name": "test_namespace_management",
-    },
-    "state": "PASS",
-    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
-  },
-  {
-    "id": "0004",
-    "start_date": "2021-02-07T010:28:40.000Z",
-    "end_date": "2021-02-07T12:12:44.000Z",
-    "system": {
-      "name": "BBB",
-    },
-    "test_job_rel": {
-      "test_plan": {
-        "name": "plan2",
+    {
+      "id": "0002",
+      "start_date": "2021-02-05T08:35:10.000Z",
+      "end_date": "2021-02-06T02:01:53.000Z",
+      "system": {
+        "name": "BBB",
       },
-    },
-    "test_rel": {
-      "name": "test_secure_erase",
-    },
-    "state": "FAIL",
-    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
-  },
-  {
-    "id": "0005",
-    "start_date": "2021-02-08T09:02:10.000Z",
-    "end_date": "",
-    "system": {
-      "name": "DDD",
-    },
-    "test_job_rel": {
-      "test_plan": {
-        "name": "plan4",
+      "test_job_rel": {
+        "test_plan": {
+          "name": "plan2",
+        },
       },
-    },
-    "test_rel": {
-      "name": "test_sample1",
-    },
-    "state": "INPROGRESS",
-    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
-  },
-  {
-    "id": "0006",
-    "start_date": "2021-02-08T15:03:30.000Z",
-    "end_date": "",
-    "system": {
-      "name": "EEE",
-    },
-    "test_job_rel": {
-      "test_plan": {
-        "name": "plan6",
+      "test_rel": {
+        "name": "test_secure_erase",
       },
+      "state": "PASS",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
     },
-    "test_rel": {
-      "name": "test_sample2",
+    {
+      "id": "0003",
+      "start_date": "2021-02-06T03:40:15.000Z",
+      "end_date": "2021-02-06T07:08:59.000Z",
+      "system": {
+        "name": "CCC",
+      },
+      "test_job_rel": {
+        "test_plan": {
+          "name": "plan3",
+        },
+      },
+      "test_rel": {
+        "name": "test_namespace_management",
+      },
+      "state": "PASS",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
     },
-    "state": "CREATED",
-    "log_path": "",
-  },
-],
+    {
+      "id": "0004",
+      "start_date": "2021-02-07T010:28:40.000Z",
+      "end_date": "2021-02-07T12:12:44.000Z",
+      "system": {
+        "name": "BBB",
+      },
+      "test_job_rel": {
+        "test_plan": {
+          "name": "plan2",
+        },
+      },
+      "test_rel": {
+        "name": "test_secure_erase",
+      },
+      "state": "FAIL",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+    },
+    {
+      "id": "0005",
+      "start_date": "2021-02-08T09:02:10.000Z",
+      "end_date": "",
+      "system": {
+        "name": "DDD",
+      },
+      "test_job_rel": {
+        "test_plan": {
+          "name": "plan4",
+        },
+      },
+      "test_rel": {
+        "name": "test_sample1",
+      },
+      "state": "INPROGRESS",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+    },
+    {
+      "id": "0006",
+      "start_date": "2021-02-08T15:03:30.000Z",
+      "end_date": "",
+      "system": {
+        "name": "EEE",
+      },
+      "test_job_rel": {
+        "test_plan": {
+          "name": "plan6",
+        },
+      },
+      "test_rel": {
+        "name": "test_sample2",
+      },
+      "state": "CREATED",
+      "log_path": "",
+    },
+  ],
+}
