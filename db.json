@@ -2,21 +2,171 @@
   "test_instances": [
     {
       "id": "0001",
-      "start_date": "2021-02-05T14:12:36.000Z",
-      "end_date": "",
-      "system": {
-        "name": "AAA",
-      },
-      "test_job_rel": {
-        "test_plan": {
-          "name": "plan1",
-        },
-      },
-      "test_rel": {
-        "name": "test_smart_data",
-      },
-      "state": "INPROGRESS",
-      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234"
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0002",
+      "start_date": "5-Feb-21",
+      "end_date": "6-Feb-21",
+      "system": "BBB",
+      "firmware": "132.0",
+      "drive": "A1234",
+      "plan": "plan2",
+      "test": "test_secure_erase",
+      "state": "PASS",
+      "log": "/logs/log1234.txt"
+    },
+      {
+      "id": "0003",
+      "start_date": "5-Feb-21",
+      "end_date": "6-Feb-21",
+      "system": "BBB",
+      "firmware": "132.0",
+      "drive": "A1234",
+      "plan": "plan2",
+      "test": "test_namespace_management",
+      "state": "FAIL",
+      "log": "/logs/log5678.txt"
+    },
+    {
+      "id": "0004",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0005",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0006",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0007",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0008",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0009",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0010",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0011",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0012",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0013",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
+    },
+    {
+      "id": "0014",
+      "start_date": "5-Feb-21",
+      "end_date": "...",
+      "system": "AAA",
+      "firmware": "131.0",
+      "drive": "A1234",
+      "plan": "plan1",
+      "test": "test_smart_data",
+      "state": "RUNNING",
+      "log": "/logs/log1234.txt"
     }
   ]
 }
