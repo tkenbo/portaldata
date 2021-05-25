@@ -1,112 +1,110 @@
-{
-    results: [
-      {
-        id: '0001',
-        start_date: new Date('5-Feb-21').toISOString(),
-        end_date: '',
-        system: {
-          name: 'AAA',
-        },
-        test_job_rel: {
-          test_plan: {
-            name: 'plan1',
-          },
-        },
-        test_rel: {
-          name: 'test_smart_data',
-        },
-        state: 'INPROGRESS',
-        log_path: 'http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234',
+"results": [
+  {
+    "id": "0001",
+    "start_date": new Date("5-Feb-21").toISOString(),
+    "end_date": "",
+    "system": {
+      "name": "AAA",
+    },
+    "test_job_rel": {
+      "test_plan": {
+        "name": "plan1",
       },
-      {
-        id: '0002',
-        start_date: new Date('5-Feb-21').toISOString(),
-        end_date: new Date('6-Feb-21').toISOString(),
-        system: {
-          name: 'BBB',
-        },
-        test_job_rel: {
-          test_plan: {
-            name: 'plan2',
-          },
-        },
-        test_rel: {
-          name: 'test_secure_erase',
-        },
-        state: 'PASS',
-        log_path: 'http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234',
+    },
+    "test_rel": {
+      "name": "test_smart_data",
+    },
+    "state": "INPROGRESS",
+    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+  },
+  {
+    "id": "0002",
+    "start_date": new Date("5-Feb-21").toISOString(),
+    "end_date": new Date("6-Feb-21").toISOString(),
+    "system": {
+      "name": "BBB",
+    },
+    "test_job_rel": {
+      "test_plan": {
+        "name": "plan2",
       },
-      {
-        id: '0003',
-        start_date: new Date('6-Feb-21').toISOString(),
-        end_date: new Date('6-Feb-21').toISOString(),
-        system: {
-          name: 'CCC',
-        },
-        test_job_rel: {
-          test_plan: {
-            name: 'plan3',
-          },
-        },
-        test_rel: {
-          name: 'test_namespace_management',
-        },
-        state: 'PASS',
-        log_path: 'http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234',
+    },
+    "test_rel": {
+      "name": "test_secure_erase",
+    },
+    "state": "PASS",
+    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+  },
+  {
+    "id": "0003",
+    "start_date": new Date("6-Feb-21").toISOString(),
+    "end_date": new Date("6-Feb-21").toISOString(),
+    "system": {
+      "name": "CCC",
+    },
+    "test_job_rel": {
+      "test_plan": {
+        "name": "plan3",
       },
-      {
-        id: '0004',
-        start_date: new Date('7-Feb-21').toISOString(),
-        end_date: new Date('7-Feb-21').toISOString(),
-        system: {
-          name: 'BBB',
-        },
-        test_job_rel: {
-          test_plan: {
-            name: 'plan2',
-          },
-        },
-        test_rel: {
-          name: 'test_secure_erase',
-        },
-        state: 'FAIL',
-        log_path: 'http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234',
+    },
+    "test_rel": {
+      "name": "test_namespace_management",
+    },
+    "state": "PASS",
+    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+  },
+  {
+    "id": "0004",
+    "start_date": new Date("7-Feb-21").toISOString(),
+    "end_date": new Date("7-Feb-21").toISOString(),
+    "system": {
+      "name": "BBB",
+    },
+    "test_job_rel": {
+      "test_plan": {
+        "name": "plan2",
       },
-      {
-        id: '0005',
-        start_date: new Date('5-Feb-21').toISOString(),
-        end_date: '',
-        system: {
-          name: 'DDD',
-        },
-        test_job_rel: {
-          test_plan: {
-            name: 'plan4',
-          },
-        },
-        test_rel: {
-          name: 'test_sample1',
-        },
-        state: 'INPROGRESS',
-        log_path: 'http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234',
+    },
+    "test_rel": {
+      "name": "test_secure_erase",
+    },
+    "state": "FAIL",
+    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+  },
+  {
+    "id": "0005",
+    "start_date": new Date("5-Feb-21").toISOString(),
+    "end_date": "",
+    "system": {
+      "name": "DDD",
+    },
+    "test_job_rel": {
+      "test_plan": {
+        "name": "plan4",
       },
-      {
-        id: '0006',
-        start_date: new Date('5-Feb-21').toISOString(),
-        end_date: '',
-        system: {
-          name: 'EEE',
-        },
-        test_job_rel: {
-          test_plan: {
-            name: 'plan6',
-          },
-        },
-        test_rel: {
-          name: 'test_sample2',
-        },
-        state: 'CREATED',
-        log_path: '',
-      }
-    ]
-}
+    },
+    "test_rel": {
+      "name": "test_sample1",
+    },
+    "state": "INPROGRESS",
+    "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+  },
+  {
+    "id": "0006",
+    "start_date": new Date("5-Feb-21").toISOString(),
+    "end_date": "",
+    "system": {
+      "name": "EEE",
+    },
+    "test_job_rel": {
+      "test_plan": {
+        "name": "plan6",
+      },
+    },
+    "test_rel": {
+      "name": "test_sample2",
+    },
+    "state": "CREATED",
+    "log_path": "",
+  },
+],
