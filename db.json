@@ -16,7 +16,7 @@
         "name": "test_smart_data",
       },
       "state": "INPROGRESS",
-      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234"
     },
     {
       "id": "0002",
@@ -34,7 +34,7 @@
         "name": "test_secure_erase",
       },
       "state": "PASS",
-      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234"
     },
     {
       "id": "0003",
@@ -52,7 +52,7 @@
         "name": "test_namespace_management",
       },
       "state": "PASS",
-      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234"
     },
     {
       "id": "0004",
@@ -70,7 +70,7 @@
         "name": "test_secure_erase",
       },
       "state": "FAIL",
-      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234"
     },
     {
       "id": "0005",
@@ -88,7 +88,7 @@
         "name": "test_sample1",
       },
       "state": "INPROGRESS",
-      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234",
+      "log_path": "http://10.40.16.8/systemtest_logs/AAA/test_smart_data_202105011111234"
     },
     {
       "id": "0006",
@@ -106,7 +106,7 @@
         "name": "test_sample2",
       },
       "state": "CREATED",
-      "log_path": "",
-    },
-  ],
+      "log_path": ""
+    }
+  ]
 }
