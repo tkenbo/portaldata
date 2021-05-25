@@ -2,8 +2,8 @@
   "test_instances": [
     {
       "id": "0001",
-      "start_date": "5-Feb-21",
-      "end_date": "...",
+      "start_date": "2021-02-05T14:12:36.000Z",
+      "end_date": "",
       "system": "AAA",
       "plan": "plan1",
       "test": "test_smart_data",
